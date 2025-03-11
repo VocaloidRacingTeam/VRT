@@ -9,10 +9,12 @@
             margin: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #86cecb; /* Calmer, lighter baby blue */
+        }
+
+        .page-wrapper {
             display: flex;
             justify-content: center;
-            align-items: stretch;
-            height: 100vh;
+            padding: 40px 0;
         }
 
         .content-container {
@@ -21,8 +23,6 @@
             padding: 40px;
             max-width: 800px;
             width: 80%;
-            height: 100vh;
-            overflow-y: auto;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
             text-align: center;
         }
@@ -36,6 +36,11 @@
             color: #1c8fa8;
             margin-top: 40px;
             margin-bottom: 10px;
+        }
+
+        .content-container h3 {
+            color: #1c8fa8;
+            margin-top: 30px;
         }
 
         .content-container p {
@@ -62,28 +67,30 @@
     </style>
 </head>
 <body>
-    <div class="content-container">
-        <h1>VRT - Vocaloid Racing Team</h1>
-        <p>Welcome to VRT, the Vocaloid Racing Team — where speed meets self-expression. We are a community of racers who love Vocaloid culture and believe in being unapologetically ourselves, on and off the track.</p>
+    <div class="page-wrapper">
+        <div class="content-container">
+            <h1>VRT - Vocaloid Racing Team</h1>
+            <p>Welcome to VRT, the Vocaloid Racing Team — where speed meets self-expression. We are a community of racers who love Vocaloid culture and believe in being unapologetically ourselves, on and off the track.</p>
 
-        <h2>About Us</h2>
-        <p>Founded by passionate fans and sim racers, VRT is all about inclusivity, creativity, and performance. Whether you're competitive or casual, here you're part of something colorful, bold, and unique — just like Miku herself.</p>
+            <h2>About Us</h2>
+            <p>Founded by passionate fans and sim racers, VRT is all about inclusivity, creativity, and performance. Whether you're competitive or casual, here you're part of something colorful, bold, and unique — just like Miku herself.</p>
 
-        <h2>Accomplishments</h2>
-        <p>Bathurst 12hr Winners: Tom, Layla<br>
-        ACM & TOGA GT4 Champion: Albert/Oscar <br>
-        Countless Daily & Weekly Race Wins</p>
+            <h2>Accomplishments</h2>
+            <p>Bathurst 12hr Winners: Tom, Layla<br>
+            ACM & TOGA GT4 Champion: Albert/Oscar <br>
+            Countless Daily & Weekly Race Wins</p>
 
-        <h2>About the Drivers</h2>
-        <p>Our team is made up of people who may not fit perfectly in the greater community, whether you are just more outgoing, a nerd or a total weeb. We aim to create a safe space for all drivers that aim to make it pro in the sim racing world</p>
-        <h3>Thomas Homer</h3>
-        <p>16 year old Australian. Mechanical Engineering student hoping to make it big in the racing scene. Bathurst 12hr Race Winner</p>
-        <h3> Albert/Oscar</h3>
-        <p>17 year old Dane. AMR fanatic and general racing enthusiast. ACC league champion and 24h For Anna charity race winner</p>
+            <h2>About the Drivers</h2>
+            <p>Our team is made up of people who may not fit perfectly in the greater community, whether you are just more outgoing, a nerd or a total weeb. We aim to create a safe space for all drivers that aim to make it pro in the sim racing world</p>
+            <h3>Thomas Homer</h3>
+            <p>16 year old Australian. Mechanical Engineering student hoping to make it big in the racing scene. Bathurst 12hr Race Winner</p>
+            <h3>Albert/Oscar</h3>
+            <p>17 year old Dane. AMR fanatic and general racing enthusiast. ACC league champion and 24h For Anna charity race winner</p>
 
-        <h2>Join Us</h2>
-        <p>If you're looking for a team that celebrates individuality, style, and community, come race with us!</p>
-        <a class="join-link" href="https://discord.gg/NnWcFtvQr7" target="_blank">Join our Discord</a>
+            <h2>Join Us</h2>
+            <p>If you're looking for a team that celebrates individuality, style, and community, come race with us!</p>
+            <a class="join-link" href="https://discord.gg/NnWcFtvQr7" target="_blank">Join our Discord</a>
+        </div>
     </div>
 </body>
 </html>
