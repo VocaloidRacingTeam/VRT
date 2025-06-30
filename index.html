@@ -1,110 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vocaloid Racing Team - VRT</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #86cecb; /* Calmer, lighter baby blue */
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | My Life</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Temporary basic styles if you don’t have style.css yet */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
 
-        .page-wrapper {
-            display: flex;
-            justify-content: center;
-            padding: 40px 0;
-        }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
 
-        .content-container {
-            background-color: rgba(255, 255, 255, 0.55); /* More transparent */
-            border-radius: 20px;
-            padding: 40px;
-            max-width: 800px;
-            width: 80%;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-            text-align: center;
-        }
+    nav {
+      background: #333;
+      padding: 0.5rem;
+      text-align: center;
+    }
 
-        .content-container h1 {
-            color: #e12885;
-            margin-bottom: 20px;
-        }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
 
-        .content-container h2 {
-            color: #1c8fa8;
-            margin-top: 40px;
-            margin-bottom: 10px;
-        }
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-        .content-container h3 {
-            color: #000000;
-            margin-top: 30px;
-        }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
 
-        .content-container p {
-            color: #333;
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        .join-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background-color: #1c8fa8;
-            color: white;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
-
-        .join-link:hover {
-            background-color: #15728b;
-        }
-
-        .driver-image {
-            width: 90%;
-            margin: 5%;
-        }
-    </style>
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-    <div class="page-wrapper">
-        <div class="content-container">
-            <h1>VRT - Vocaloid Racing Team</h1>
-            <p>Welcome to VRT, the Vocaloid Racing Team — where speed meets self-expression. We are a community of racers who love Vocaloid culture and believe in being unapologetically ourselves, on and off the track.</p>
+  <header>
+    <h1>Welcome to My Life</h1>
+    <p>A personal site about who I am, what I do, and everything in between.</p>
+  </header>
 
-            <h2>About Us</h2>
-            <p>Founded by passionate fans and sim racers, VRT is all about inclusivity, creativity, and performance. Whether you're competitive or casual, here you're part of something colorful, bold, and unique — just like Miku herself.</p>
+  <nav>
+    <a href="about.html">About</a>
+    <a href="education.html">Education</a>
+    <a href="projects.html">Projects</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="journal.html">Journal</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-            <h2>Upcoming & Past Events</h2>
-            <p>Below is a list of our upcoming and completed events</p>
-            <a class="join-link" href="events.html">Upcoming Events</a>
-            
-            <h2>Accomplishments</h2>
-            <p>Bathurst 12hr Winners: Tom<br>
-            ACM & TOGA GT4 Champion: Albert/Oscar <br>
-            Countless Daily & Weekly Race Wins</p>
+  <main>
+    <h2>Hello There!</h2>
+    <p>
+      This site is a digital reflection of me — my background, passions, thoughts, and journey.
+      I’m still working on putting it all together, so feel free to explore as I build it out!
+    </p>
 
-            <h2>About the Drivers</h2>
-            <p>Our team is made up of people who may not fit perfectly in the greater community, whether you are just more outgoing, a nerd or a total weeb. We aim to create a safe space for all drivers that aim to make it pro in the sim racing world</p>
-            <h3>Thomas Homer (Owner)</h3>
-            <p>16 year old Australian. Mechanical Engineering student hoping to make it big in the racing scene. Bathurst 12hr Race Winner</p>
-            <h3>Albert/Oscar</h3>
-            <p>17 year old Dane. AMR fanatic and general racing enthusiast. ACC league champion and 24h For Anna charity race winner</p>
-            
-            <h2>Join Us</h2>
-            <p>If you're looking for a team that celebrates individuality, style, and community, come race with us!</p>
-            <a class="join-link" href="https://discord.gg/NnWcFtvQr7" target="_blank">Join our Discord</a>
-            <a class="join-link" href="https://www.thesimgrid.com/teams/16983-vocaloid-racing-team/grid_feed" target="_blank">Follow our SimGrid</a>
-            <a class="join-link" href="https://www.youtube.com/@HyRizer" target="_blank">Subscribe to our Youtube</a>
-            <a class="join-link" href="mailto:vracingteamaus@gmail.com" target="_blank">Email Us</a>
-            <img src="Hatsune.webp" alt="Hatsune Chibi" class="driver-image">
-        </div>
-    </div>
+    <p>
+      Want to learn more? Head over to the <a href="about.html">About</a> page.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2025 My Name. All rights reserved.
+  </footer>
 </body>
 </html>
